@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/remixicon.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-black shadow" data-bs-theme="dark">
+            <div class="container">
+                <a href="" class="navbar-brand h1"><img src="img/logo.png"></a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+                <div class="collapse navbar-collapse" id="nav">
+                    <ul class="navbar-nav m-auto ">
+                        <li class="nav-item me-3 dropdown">
+                            <a href="" class="nav-link dropdown-toggle " data-bs-toggle="dropdown"
+                                data-bs-target="#f-drop" data-bs-auto-close="outside">Home</a>
+                            <ul class="dropdown-menu p-3" id="f-drop">
+                                <li> <a href="" class="dropdown-item border-bottom">Header Static</a></li>
+                                <li><a href="" class="dropdown-item border-bottom">Header Slider</a></li>
+                                <li><a href="" class="dropdown-item border-bottom">Youtube Backgound</a></li>
+                                <li><a href="" class="dropdown-item border-bottom">Self Hosted Video</a></li>
+                                <li><a href="" class="dropdown-item">RTL</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item me-3 ">
+                            <a href="" class="nav-link">pages</a>
+                        </li>
+
+                        <li class="nav-item me-3">
+                            <a href="" class="nav-link">menu</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a href="" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a href="" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a href="" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-warning " data-bs-toggle="modal" data-bs-target="#login">MAKE
+                        ARESERVATION </button>
+                </div>
+
+            </div>
+            <!-- <form action="" class="d-flex " role="search">
+                <input type="search" class="form-control me-3" placeholder="search">
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
+            </form>
+        </nav> -->
+    </header>
+    <!-- ---------------------------------------------------------------------- Make a reservation form start------------------------------------------------------------------------------------------ -->
+    <section>
+        <div class="modal fade" id="login">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content ">
+                    <div class="modal-header  "
+                        style="background-image: url(img/plate.png); background-size:250px; background-repeat: no-repeat; background-position: 300px ">
+                        <h3>Make A<br> Reservation</h3>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col">
+                                <select class="form-select ">
+                                    <option selected>Time</option>
+                                    <option value="1">9:00 AM</option>
+                                    <option value="2">1:00 AM</option>
+                                    <option value="3">2:00 AM</option>
+                                    <option value="4">2:00 AM</option>
+                                    <option value="5">3:00 pM</option>
+                                    <option value="6">4:00 PM</option>
+                                    <option value="7">5:00 PM</option>
+                                    <option value="8">6:00 PM</option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <input type="date" class="w-100 p-2 rounded-2 border border-light-subline">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" id="name" placeholder="name">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" id="phone" placeholder="phone">
+                            </div>
+                        </div>
+                        <br>
+                        <select class="form-select ">
+                            <option selected>Person</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                        <br>
+                        <input type="text" class="form-control" id="Email" placeholder="Email">
+                    </div>
+                    <div class="modal-footer bg-warning bg-gradient px-5 ">
+                        <div class="row">
+                            <div class="col-12 fs-6 ">
+                                Apparently we had reached a great height in the atmos, for the sky was a dead black, and
+                                the stars had twinkle. By which lifts the light.
+                            </div>
+                            <div class="col-12 my-3">
+                                <button class="btn-light w-100 p-2 rounded-2 border-0">SUBMIT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------------------------------------------------- Make a reservation form end------------------------------------------------------------------------------------------ -->
+    
+    <!-- ----------------------------------------------------------------------main section start------------------------------------------------------------------------------------------ -->
+<section>
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 p-5 overflow-hidden"  style="background-image: url(img/Vector.png); background-size:95%;  background-repeat: no-repeat; height:800px">
+                <img src="img/plate.png" class="img-fluid " >
+                </div>
+            <div class="col-xl-8 col-lg-8  col-md-8  col-sm-12 px-5 m-auto">
+                <div class="line-height: 1.5;"></div>
+                <h1>The Spectacle<b> Before Us</b><br>
+                   <b> Was Indeed</b> Sublime.</h1>
+                   <p style="line-height: 1.5;">Apparently, we had reached a great height in the atmosphere, for<br> the sky was a dead black, and which lifts the horizon of the sea to <br>the level of the spectator on a hillside.
+                   </p>
+                  <div class="d-flex "> <div class="mx-2">
+                        <button class="btn btn-warning px-5">ORDER ONLINE</button>
+                    </div>
+                    <div class="">
+                        <button class="btn btn-outline-warning px-5">OUR LOCATION</button>
+                    </div>
+                </div>
+                   </div>
+          
+        </div>
+    </div>
+</section>
+
+    <!-- ---------------------------------------------------------------------- main section end------------------------------------------------------------------------------------------ -->
+
+      <!-- ---------------------------------------------------------------------- Foods & Enjoy start------------------------------------------------------------------------------------------ -->
+
+<section>
+    <div class="container-fluid"><b><h4 class="text-center">Menu</b></h4></div>
+    <div class="container-fluid"><b><h1 class="text-center">Taste Our Foods & Enjoy</b></h1></div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="slider responsive">
+				<div>
+					<h3>1</h3>
+				</div>
+				<div>
+					<h3>2</h3>
+				</div>
+				<div>
+					<h3>3</h3>
+				</div>
+				<div>
+					<h3>4</h3>
+				</div>
+				<div>
+					<h3>5</h3>
+				</div>
+				<div>
+					<h3>6</h3>
+				</div>
+				<div>
+					<h3>7</h3>
+				</div>
+				<div>
+					<h3>8</h3>
+				</div>
+			</div>
+        </div>
+    </div>
+</section>
+<!-- ---------------------------------------------------------------------- Foods & Enjoy end------------------------------------------------------------------------------------------ -->
+
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+        $('.responsive').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script>
+</body>
+
+</html>
