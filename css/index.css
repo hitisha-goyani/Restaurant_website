@@ -1,0 +1,28 @@
+.s-img:hover:before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(#ffffff00, black);
+    position: absolute;
+}
+
+.btn-yellow{
+    color: #4d5969;
+    background-color: #ffc554;
+    border-color: #ffc554;
+}
+.s-text{
+    content:"";
+    position: absolute;
+    z-index:1000;
+    bottom:100;
+    top:0;
+    display: none;
+ 
+}
+.s-image:hover.s-text{
+    display: block;
+}
+
+
+
