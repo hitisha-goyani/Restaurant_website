@@ -1,10 +1,22 @@
-.s-img:hover:before{
+/* .s-img:hover:before{
     content: "";
     height: 100%;
     width: 100%;
     background-image: linear-gradient(#ffffff00, black);
     position: absolute;
+} */
+.s-img:before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
+.s-img:hover:before{
+    background-image: linear-gradient(#ffffff00, black);
+}
+
+
+
 
 .btn-yellow{
     color: #4d5969;
@@ -15,12 +27,11 @@
     content:"";
     position: absolute;
     z-index:1000;
-    bottom:100;
-    top:0;
-    display: none;
+    bottom:0;
+    display: none;   
  
 }
-.s-image:hover.s-text{
+.s-image:hover .s-text{
     display: block;
 }
 .b-0{
@@ -31,6 +42,30 @@
     width:100%;
     padding-right: 20px;
     padding-left: 20px;
+}
+.rot{
+    animation: rot 1s linear;
+    position: relative;
+
+}
+
+@keyframes rot {
+    from{
+        rotate: -90deg;
+        left:-300px;
+    }
+    to{
+        rotate: 0deg;
+        left:0px;
+    }
+}
+@media(min-width:992px){
+.bg-2{
+    background-image: url('../img/Vector.png');
+    background-size: 95%;
+    background-repeat: no-repeat;
+    height:800px;
+}
 }
 
 
