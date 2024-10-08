@@ -1,10 +1,11 @@
-/* .s-img:hover:before{
-    content: "";
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(#ffffff00, black);
-    position: absolute;
-} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather';
+    font-style: normal;
+    /* font-weight: 300; */
+}
 .s-img:before{
     content: "";
     height: 100%;
@@ -14,7 +15,13 @@
 .s-img:hover:before{
     background-image: linear-gradient(#ffffff00, black);
 }
+.color-gray{
+    color:#5e6e82;
+}
 
+.color-red{
+    color: #ff806e;
+}
 
 
 
