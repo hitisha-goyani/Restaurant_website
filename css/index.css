@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Merriweather';
-    font-style: normal;
+    /* font-family: 'Merriweather';
+    font-style: normal; */
     /* font-weight: 300; */
 }
 .s-img:before{
