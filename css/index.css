@@ -93,6 +93,15 @@
 .slick-prev:hover{
     background-color: orange !important;
 }
+.bg-holder{
+    position:absolute;
+    min-height: 100%;
+    width:100%;
+    top:0;
+    
+    overflow: hidden;
+    z-index:0;
+}
 
 @keyframes rot {
     from{
@@ -111,12 +120,23 @@
     background-repeat: no-repeat;
     height:800px;
 }
+.left-lg{
+    left:635px;
+    width:455px  !important;
+
 }
-@media(min-width:1400px){
-    .w-xxl{
-        width: 300px!important;;
+.border-right{
+    border-right: 2px solid #d8e2ef;
+}
+}
+@media(min-width:1200px){
+    .left-xl{
+        left: 850px;
+        width:600px !important;
+
     }
 }
+
 
 
 
