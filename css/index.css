@@ -113,6 +113,17 @@
         left:0px;
     }
 }
+.fadetop{
+    animation: fadetop 1s linear;
+}
+@keyframes fadetop{
+    from{
+        transform: translateX(-20px);
+    }
+    to{
+        transform:translateX(0px);
+    }
+}
 @media(min-width:992px){
 .bg-2{
     background-image: url('../img/Vector.png');
