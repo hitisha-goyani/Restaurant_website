@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Merriweather';
+    font-family: 'Merriweather';
     font-style: normal; */
     /* font-weight: 300; */
 }
@@ -17,6 +17,10 @@
 }
 .color-gray{
     color:#5e6e82;
+}
+.height
+{
+ height:100px!important;   
 }
 
 .color-red{
@@ -113,8 +117,21 @@
         left:0px;
     }
 }
+.spoon{
+    animation:spoon 1s linear;
+}
 .fadetop{
     animation: fadetop 1s linear;
+}
+@keyframes spoon{
+    from{
+        left:0px;
+         top:200px;
+    }
+    to{
+        left:0px; 
+        top:0px;
+    }
 }
 @keyframes fadetop{
     from{
@@ -142,9 +159,7 @@
 .w-450{
     max-width: 450px !important;
 }
-.t-start{
-    text-align: start !important;
-}
+
 }
 @media(min-width:1200px){
     .left-xl{
@@ -160,6 +175,12 @@
     .p-sm{
         padding-left: 50px!important;
         padding-right: 50px!important;
+    }
+    
+}
+@media(max-width:767px){
+    .t-center{
+        text-align: center;
     }
 }
 
