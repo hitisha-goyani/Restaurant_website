@@ -133,7 +133,7 @@
 }
 @keyframes fadetop{
     from{
-        transform: translateX(-20px);
+        transform: translateX(-30px);
     }
     to{
         transform:translateX(0px);
@@ -179,6 +179,9 @@
 @media(max-width:767px){
     .t-center{
         text-align: center;
+    }
+    .just-center{
+        justify-content: center;
     }
 }
 
