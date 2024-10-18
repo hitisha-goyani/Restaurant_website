@@ -106,6 +106,9 @@
     overflow: hidden;
     z-index:0;
 }
+.m-b-5{
+    margin-bottom:15%;
+}
 
 @keyframes rot {
     from{
@@ -146,6 +149,9 @@
     background-repeat: no-repeat;
     height:800px;
 }
+.height-1{
+    height: 100vh ;
+} 
 .left-lg{
     left:635px;
     width:455px  !important;
@@ -184,6 +190,7 @@
         justify-content: center;
     }
 }
+
 
 
 
