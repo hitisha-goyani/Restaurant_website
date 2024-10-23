@@ -15,10 +15,20 @@
 </head>
 
 <body>
+       <!-- --------------------------------------------reload section start---------------------------------------------------------------- -->
+    <div class="reloade position-fixed w-100 z-3 top-0 " id="reloade" style="height: 100vh;background-color: #99ccff;">
+        <div class=" position-absolute top-50 start-50 translate-middle"  role="status">
+            <span class="img-fluid"><img src="img/Sunny Side Up.gif" alt="" height="100%" width="100%">
+              </div></span>
+          </div>
+</div>
+   <!-- --------------------------------------------reload section end---------------------------------------------------------------- -->
+
+       <!-- --------------------------------------------header section start---------------------------------------------------------------- -->
     <header >
-        <nav class="navbar navbar-expand-sm bg-black shadow  fixed-top" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-sm bg-black shadow z-2 fixed-top" data-bs-theme="dark">
             <div class="container">
-                <a href="" class="navbar-brand h1"><img src="img/logo.png"></a>
+                <a href="index.html" class="navbar-brand h1"><img src="img/logo.png"></a>
                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
                     <span class="navbar-toggler-icon"></span>
 
@@ -61,6 +71,8 @@
             </div>
            
     </header>
+       <!-- --------------------------------------------header section end---------------------------------------------------------------- -->
+
     <!-- ---------------------------------------------------------------------- Make a reservation form start------------------------------------------------------------------------------------------ -->
     <section>
         <div class="modal fade" id="login">
@@ -266,6 +278,13 @@
     <script>
         AOS.init();
       </script>
+      <script>
+        setTimeout(() => {
+            let reload = document.getElementById("reloade");
+    
+            reload.style.display="none";
+        }, 2000);
+    </script>
 
     </body>
     </html>

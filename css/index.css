@@ -109,6 +109,13 @@
 .m-b-5{
     margin-bottom:15%;
 }
+.carousel-dark .carousel-control-next-icon{
+    filter:none !important;
+}
+.carousel-dark .carousel-control-prev-icon{
+    filter:none !important;
+
+}
 
 @keyframes rot {
     from{
